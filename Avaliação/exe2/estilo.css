@@ -1,0 +1,43 @@
+body {
+    background: url("grandparents-4387074_1280.jpg") no-repeat top center fixed;
+    background-size: cover;
+}
+
+div::before {
+    content: " Linguagem de Programação II: PHP - Prof. Robson Carlos";
+    font: 10pt Arial;
+    font-weight: bold;
+    color: orangered;
+    background-color: black;
+    padding: 5px;
+    display:block;
+    position: relative;
+    top: -10px;
+    left: -10px;
+    width: 560px;
+}
+
+div {
+    background-color: rgba(245, 247, 112, 0.705);
+    margin: 100px auto 100px auto;
+    padding: 10px;
+    width: 550px;
+    min-height:300px;
+}
+
+
+a {
+    color: #273747;
+    text-decoration: none;
+    font-weight: bold;
+    font: 11pt Helvetica;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+span.foco {
+    font-weight: bold;
+    color: #7e050c;
+}
