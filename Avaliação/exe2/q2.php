@@ -13,7 +13,7 @@
         $nas = $_GET["nasc"];
         $dt = date("Y") - $nas;
 
-        if($dt >= 0 && $dt <= 11){
+        if($dt >= 0 && $dt <= 11){ /*apesar de ter rodado certo o seu código, ele poderia ter sido codificado de maneira mais simples. Exemplo: if($dt <=11)*/
             echo "Seu nome é $n";
             echo "</br>Você tem $dt anos";
             echo "</br>Criança! &#128118;";
@@ -23,7 +23,7 @@
             echo "</br>Você tem $dt anos";
             echo "</br>Adolescente! &#128102;";
         }
-        elseif($dt >= 15 && $dt <= 18){
+        elseif($dt >= 15 && $dt <= 18){/*nesse caso aqui está correto */
             echo "Seu nome é $n";
             echo "</br>Você tem $dt anos";
             echo "</br>Jovem! &#128104;";
