@@ -18,7 +18,7 @@
 
         $data_nas = new DateTime($dt);
         $data_at = new DateTime();
-        $dif = $data_at ->diff($data_nas);
+        $dif = $data_at ->diff($data_nas); /*show!!*/
         $idad = $dif ->y;
 
         echo "Seu nome: $n &#128488;";
