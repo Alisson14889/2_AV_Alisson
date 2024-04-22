@@ -5,6 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Questão 3</title>
+    <style>
+        button{
+            color: aquamarine;
+            background-color: darkblue;
+        }
+
+    </style>
 </head>
 <body>
 <div>

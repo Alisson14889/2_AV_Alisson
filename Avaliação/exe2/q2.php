@@ -5,6 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Questão 2</title>
+    <style>
+        button{
+            color: black;
+            background-color: darkslateblue;
+        }
+    </style>
 </head>
 <body>
 <div>
@@ -13,7 +19,7 @@
         $nas = $_GET["nasc"];
         $dt = date("Y") - $nas;
 
-        if($dt >= 0 && $dt <= 11){
+        if($dt <= 11) {                             //if($dt >= 0 && $dt <= 11){
             echo "Seu nome é $n";
             echo "</br>Você tem $dt anos";
             echo "</br>Criança! &#128118;";
